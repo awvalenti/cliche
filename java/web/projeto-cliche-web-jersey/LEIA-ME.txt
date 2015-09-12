@@ -4,4 +4,4 @@ Para construir e rodar o projeto:
 Para ver rodando:
 	No navegador, acesse: http://localhost:8081/meuprojeto/rest/pessoa
 	No navegador, acesse: http://localhost:8081/meuprojeto/rest/pessoa/1 (ou /2 ou /3)
-	No terimnal, execute: curl -s -H 'Accept: application/json' http://localhost:8081/meuprojeto/pessoa
+	No terminal, execute: curl -s -H 'Accept: application/json' http://localhost:8081/meuprojeto/rest/pessoa
