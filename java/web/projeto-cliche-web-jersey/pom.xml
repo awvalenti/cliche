@@ -4,7 +4,7 @@
 
 	<!-- Modifique estes valores -->
 	<groupId>br.com.minhaempresa</groupId>
-	<artifactId>meuprojeto</artifactId>
+	<artifactId>projeto-cliche-web-jersey</artifactId>
 
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
