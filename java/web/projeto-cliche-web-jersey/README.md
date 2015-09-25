@@ -3,7 +3,7 @@ Para construir e rodar o projeto, execute no terminal:
 
 Para ver rodando:
   * No navegador, acesse:
-    * `http://localhost:8081/meuprojeto/rest/pessoa`
-    * `http://localhost:8081/meuprojeto/rest/pessoa/1` (ou /2 ou /3)
+    * `http://localhost:8081/projeto-cliche-web-jersey/rest/pessoa`
+    * `http://localhost:8081/projeto-cliche-web-jersey/rest/pessoa/1` (ou /2 ou /3)
   * No terminal, execute:
-    * `curl -s -H 'Accept: application/json' http://localhost:8081/meuprojeto/rest/pessoa`
+    * `curl -s -H 'Accept: application/json' http://localhost:8081/projeto-cliche-web-jersey/rest/pessoa`
