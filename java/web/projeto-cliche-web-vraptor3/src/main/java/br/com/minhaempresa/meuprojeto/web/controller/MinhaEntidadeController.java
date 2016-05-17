@@ -1,4 +1,4 @@
-package br.minhaempresa.meuprojeto.web.controllers;
+package br.com.minhaempresa.meuprojeto.web.controller;
 
 import static java.util.Arrays.asList;
 import br.com.caelum.vraptor.Resource;
