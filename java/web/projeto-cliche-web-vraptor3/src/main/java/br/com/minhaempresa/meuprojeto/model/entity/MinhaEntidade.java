@@ -1,4 +1,4 @@
-package br.com.minhaempresa.meuprojeto.web.model;
+package br.com.minhaempresa.meuprojeto.model.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

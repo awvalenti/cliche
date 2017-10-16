@@ -1,11 +1,11 @@
-package br.com.minhaempresa.meuprojeto.web.repository;
+package br.com.minhaempresa.meuprojeto.model.repository;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
 import br.com.caelum.vraptor.ioc.Component;
-import br.com.minhaempresa.meuprojeto.web.model.MinhaEntidade;
+import br.com.minhaempresa.meuprojeto.model.entity.MinhaEntidade;
 
 @Component
 public class MinhaEntidadeRepository {
