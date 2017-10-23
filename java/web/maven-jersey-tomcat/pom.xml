@@ -4,7 +4,7 @@
 
 	<!-- Modifique estes valores -->
 	<groupId>br.com.minhaempresa</groupId>
-	<artifactId>projeto-cliche-web-jersey</artifactId>
+	<artifactId>maven-jersey-tomcat</artifactId>
 
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="2.0">
-  <wb-module deploy-name="projeto-cliche-web-jersey">
-    <property name="context-root" value="projeto-cliche-web-jersey"/>
+  <wb-module deploy-name="maven-jersey-tomcat">
+    <property name="context-root" value="maven-jersey-tomcat"/>
     <wb-resource deploy-path="/" source-path="src/main/webapp"/>
     <property name="java-output-path" value="/target/classes"/>
     <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/jstl/jstl/1.2/jstl-1.2.jar">

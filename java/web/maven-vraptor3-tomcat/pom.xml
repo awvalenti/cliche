@@ -4,7 +4,7 @@
 
 	<!-- ALTERAR -->
 	<groupId>br.com.minhaempresa</groupId>
-	<artifactId>meuprojeto</artifactId>
+	<artifactId>maven-vraptor3-tomcat</artifactId>
 
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
