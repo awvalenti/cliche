@@ -35,10 +35,6 @@ dependencies {
 	compile 'org.javassist:javassist:3.18.1-GA'
 	compile 'org.hibernate:hibernate-validator-cdi:5.1.1.Final'
 
-//	compile 'javax.el:javax.el-api:3.0.0'
-
-	//compile 'javax.enterprise:cdi-api:2.0'
-
 	compile 'jstl:jstl:1.2'
 	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
 	providedCompile 'javax.servlet.jsp:jsp-api:2.2'
