@@ -16,6 +16,10 @@ apply plugin: 'war'
 apply plugin: 'eclipse'
 apply plugin: 'com.bmuschko.tomcat'
 
+tomcat {
+	httpPort 8080
+}
+
 dependencies {
 	def tomcatVersion = '8.0.42'
 	tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
