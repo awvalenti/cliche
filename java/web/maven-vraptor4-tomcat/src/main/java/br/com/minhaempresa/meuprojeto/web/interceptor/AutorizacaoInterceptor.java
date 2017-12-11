@@ -25,15 +25,10 @@ public class AutorizacaoInterceptor {
 	@AroundCall
 	public void intercept(SimpleInterceptorStack stack,
 			ControllerInstance controllerInstance) {
-
-		System.out.println(1);
-
 		if (controllerInstance.getController().equals(acessoController) ||
 				sessao.estahLogado()) {
-			System.out.println(2);
 			stack.next();
 		} else {
-			System.out.println(3);
 			result.redirectTo(AcessoController.class).form();
 		}
 	}

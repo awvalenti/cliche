@@ -18,18 +18,13 @@ public class AcessoController {
 
 	@Post
 	public void login(String usuario, String senha) {
-		System.out.printf("%s, %s\n", usuario, senha);
 		if ("aluno".equals(usuario) && "123456".equals(senha)) {
-			System.out.println(20);
 			sessao.fazerLogin();
 		}
 
-		System.out.println(30);
 		if (sessao.estahLogado()) {
-			System.out.println(40);
 			result.redirectTo(MinhaEntidadeController.class).listar();
 		} else {
-			System.out.println(50);
 			result.include("mensagem", "Login falhou");
 			result.redirectTo(this).form();
 		}
